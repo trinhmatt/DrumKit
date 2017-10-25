@@ -49,5 +49,6 @@ for (i=0; i<allPads.length; i++) {
   allPads[i].addEventListener('click', function(event){
     this.getElementsByTagName('audio')[0].currentTime = 0;
     this.getElementsByTagName('audio')[0].play();
+    this.getElementsByTagName('audio')[0].parentElement.classList.add('played')
   })
 }

@@ -23,6 +23,10 @@ body {
   padding-top: 225px;
 }
 
+.row {
+  margin: 0 auto;
+}
+
 .played{
   border: 1px solid #ffa713;
   transform: scale(1.05);
@@ -30,4 +34,8 @@ body {
 
 p {
   padding: 5px;
+}
+
+.pads {
+  margin: 0 auto;
 }
